@@ -1,0 +1,8 @@
+nimcache
+testresults
+*.log
+# Compiled Nim binaries
+tests/test_*
+!tests/test_*.nim
+examples/*
+!examples/*.nim
